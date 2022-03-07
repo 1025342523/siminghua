@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_text">log in</string>
+    <string name="register_text">registered</string>
+    <string name="register_account_text">Register one</string>
+    <string name="forget_pswd_text">forget password?</string>
+    <string name="find_pswd_text">Retrieve password</string>
+    <string name="alter_pswd_text">change Password</string>
+    <string name="account_number_text">account number</string>
+    <string name="pswd_text">password</string>
+    <string name="username_text">username</string>
+    <string name="input_username_text">please enter user name</string>
+    <string name="input_account_text">Please input Username</string>
+    <string name="input_pswd_text">Please enter your password (6-16 digits)</string>
+    <string name="input_vaild_pswd_text">Please enter a valid password</string>
+    <string name="phone_text">phone number</string>
+    <string name="input_phone_text">Please enter phone number</string>
+    <string name="input_vaild_phone_text">please input valid mobile phone number</string>
+    <string name="email_text">mailbox</string>
+    <string name="input_email_text">Please input the email address</string>
+    <string name="input_vaild_email_text">please enter a valid email address</string>
+    <string name="config_pswd_text">confirm password</string>
+    <string name="input_config_pswd_text">Please enter the confirmation password (6-16 digits)</string>
+    <string name="input_pswd_disagree_text">Inconsistent password input</string>
+    <string name="code_text">Verification code</string>
+    <string name="input_code_text">please enter verification code</string>
+    <string name="get_code_text">get verification code</string>
+    <string name="code_success_text">Verification code sent</string>
+    <string name="new_pswd_text">new password</string>
+    <string name="input_new_pswd_text">Please enter a new password (6-16 digits)</string>
+    <string name="input_vaild_new_pswd_text">Please enter a valid new password</string>
+    <string name="input_vaild_new_pswd_again_text">Please enter your new password again</string>
+    <string name="old_pswd_text">old password</string>
+    <string name="input_old_pswd_text">Please enter a new password (6-16 digits)</string>
+    <string name="input_vaild_old_pswd_text">Please enter a valid old password (6-16 digits)</string>
+    <string name="input_vaild_old_new_pswd_text">The two passwords entered are inconsistent</string>
+    <string name="phone_email_text">Mobile phone number / mailbox</string>
+    <string name="input_phone_email_text">Please enter your mobile number/mailbox</string>
+    <string name="input_vaild_phone_email_text">Please enter a valid mobile phone number / email address</string>
+    <string name="valid_char_text">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.@</string>
+    <string name="three_login_text">Sign in with</string>
+    <string name="choose_title_text">Choose your own title</string>
+    <string name="fleet_management_text">I am a fleet manager.</string>
+    <string name="driver_select_text">I am a team driver.</string>
+    <string name="choose_identity_text">Choose your identity to enter the Tyre App</string>
+    <string name="personal_text">Personal information</string>
+    <string name="reset_password_text">reset Password</string>
+    <string name="version_text">About the version</string>
+    <string name="logout_account_text">Logout</string>
+    <string name="new_password_text">new password</string>
+    <string name="input_old_password_text">Please enter the old password</string>
+    <string name="input_new_password_text">Please enter a new password</string>
+    <string name="input_new_password_again_text">Enter the new password again</string>
+    <string name="account_text">account number</string>
+    <string name="update_password_success_text">password has been updated</string>
+    <string name="search_car_number_text">Search for license plate number</string>
+    <string name="incorrect_account_number_text">Incorrect account number</string>
+    <string name="username_or_password_cannot_be_empty_text">Username or password cannot be empty</string>
+    <string name="baidumap_text">Baidu map</string>
+    <string name="my_location_text">my position</string>
+
+    <string name="business_user_text">I am a business user</string>
+    <string name="personal_user_text">I am an individual user</string>
+
+</resources>

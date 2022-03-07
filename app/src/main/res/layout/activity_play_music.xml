@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/DIMEN_50PX"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <include
+            layout="@layout/layout_title"
+            />
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/DIMEN_20PX"
+            android:padding="@dimen/DIMEN_10PX"
+            android:src="@mipmap/icon_left_arrow"
+            />
+
+        <ImageView
+            android:id="@+id/iv_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/DIMEN_20PX"
+            android:padding="@dimen/DIMEN_10PX"
+            android:src="@mipmap/icon_add"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_play_music_head"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_260PX"
+        android:background="@mipmap/icon_song_add_bg"
+        app:layout_constraintTop_toBottomOf="@id/rl_title_bar"
+        >
+
+        <ImageView
+            android:id="@+id/iv_play_music"
+            android:layout_width="@dimen/DIMEN_90PX"
+            android:layout_height="@dimen/DIMEN_90PX"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/DIMEN_30PX"
+            android:src="@mipmap/icon_add_song_head"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/DIMEN_40PX"
+            android:layout_toEndOf="@+id/iv_play_music"
+            android:text="我最爱的音乐播放列表"
+            android:textColor="@color/item_left_color"
+            android:textSize="@dimen/text_size30"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_play_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/rl_play_music_head"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/DIMEN_50PX"
+            android:layout_height="@dimen/DIMEN_50PX"
+            android:layout_marginBottom="@dimen/DIMEN_20PX"
+            android:layout_marginStart="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_20PX"
+            android:src="@mipmap/icon_music_pause"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/DIMEN_20PX"
+            android:text="全部播放"
+            android:textColor="@color/item_left_color"
+            android:textSize="@dimen/text_size30"
+            />
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/DIMEN_20PX"
+            android:text="(共0首歌曲)"
+            android:textColor="@color/item_right_color"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/box_border_color"
+        app:layout_constraintTop_toBottomOf="@id/ll_play_music"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_720PX"
+        android:layout_marginTop="@dimen/DIMEN_10PX"
+        app:layout_constraintTop_toBottomOf="@id/ll_play_music"
+        />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="cancle_attention_text">unsubscribe</string>
+	<string name="choose_birthday">Choose the date of birth</string>
+	<string name="choose_year">year</string>
+	<string name="choose_month">month</string>
+	<string name="choose_day">day</string>
+	<string name="input_content_text">Please enter content</string>
+	<string name="update_success_text">Successfully modified</string>
+
+</resources>

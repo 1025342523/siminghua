@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--常用的设置，反馈意见标题的几种类型的样式-->
+    <!--单项item RelativeLayout-->
+    <style name="item_rl_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/DIMEN_95PX</item>
+        <item name="android:background">@drawable/selector_rl_click</item>
+    </style>
+    <!-- 道路占比的单项-->
+    <style name="item_way_proportion">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/selector_rl_click</item>
+    </style>
+    <!--图片说明-->
+    <style name="item_iv_left_style">
+        <item name="android:layout_width">@dimen/DIMEN_56PX</item>
+        <item name="android:layout_height">@dimen/DIMEN_56PX</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/DIMEN_20PX</item>
+    </style>
+    <!--左侧说明文字，左侧有图标-->
+    <style name="item_tv_left_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/DIMEN_20PX</item>
+        <item name="android:textColor">@color/item_left_color</item>
+        <item name="android:textSize">@dimen/text_size30</item>
+    </style>
+    <!--左侧说明文字，左侧没有图标-->
+    <style name="item_tv_left_no_iv_style" parent="item_tv_left_style">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">@dimen/DIMEN_20PX</item>
+    </style>
+
+    <!--右侧说明文字,带箭头-->
+    <style name="item_tv_right_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/DIMEN_20PX</item>
+        <item name="android:textColor">@color/item_right_color</item>
+        <item name="android:textSize">@dimen/text_size26</item>
+    </style>
+
+    <!--右侧说明文字,不带箭头-->
+    <style name="item_tv_right_no_iv_style" parent="item_tv_right_style">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/DIMEN_20PX</item>
+    </style>
+    
+    <!-- 下级页面箭头 -->
+    <style name="item_next_style">
+        <item name="android:layout_width">@dimen/DIMEN_28PX</item>
+        <item name="android:layout_height">@dimen/DIMEN_28PX</item>
+        <item name="android:layout_marginRight">@dimen/DIMEN_20PX</item>
+        <item name="android:src">@mipmap/ico_next</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!-- 分割线 -->
+    <style name="ll_cut_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/cut_linear_value</item>
+        <item name="android:background">@color/box_border_color</item>
+    </style>
+
+    <style name="ll_white_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/white_bg_color</item>
+    </style>
+
+    <style name="linear_layout_white_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>

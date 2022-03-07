@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_text">登录</string>
+    <string name="register_text">注册</string>
+    <string name="register_account_text">注册一个吧</string>
+    <string name="forget_pswd_text">忘记密码？</string>
+    <string name="find_pswd_text">找回密码</string>
+    <string name="alter_pswd_text">修改密码</string>
+    <string name="account_number_text">账号</string>
+    <string name="pswd_text">密码</string>
+    <string name="confirm_password_text">确定密码</string>
+    <string name="username_text">用户名</string>
+    <string name="input_username_text">请输入用户名</string>
+    <string name="input_account_text">请输入账号</string>
+    <string name="input_pswd_text">请输入密码（6-16位)</string>
+    <string name="input_password_again_text">再次输入密码</string>
+    <string name="input_vaild_pswd_text">请输入有效的密码</string>
+    <string name="phone_text">手机号</string>
+    <string name="input_phone_text">请输入手机号</string>
+    <string name="input_vaild_phone_text">请输入有效的手机号</string>
+    <string name="email_text">邮箱</string>
+    <string name="input_email_text">请输入邮箱地址</string>
+    <string name="input_vaild_email_text">请输入有效的邮箱地址</string>
+    <string name="config_pswd_text">确认密码</string>
+    <string name="input_config_pswd_text">请输入确认密码（6-16位</string>
+    <string name="input_pswd_disagree_text">密码输入不一致</string>
+    <string name="code_text">验证码</string>
+    <string name="input_code_text">请输入验证码</string>
+    <string name="get_code_text">获取验证码</string>
+    <string name="code_success_text">验证码已发送</string>
+    <string name="new_pswd_text">新密码</string>
+    <string name="input_new_pswd_text">请输入新密码（6-16位）</string>
+    <string name="input_vaild_new_pswd_text">请输入有效的新密码</string>
+    <string name="input_vaild_new_pswd_again_text">请再次输入新密码</string>
+    <string name="old_pswd_text">旧密码</string>
+    <string name="input_old_pswd_text">请输入新密码（6-16位）</string>
+    <string name="input_vaild_old_pswd_text">请输入有效的旧密码(6-16位)</string>
+    <string name="input_vaild_old_new_pswd_text">输入的两次密码不一致</string>
+    <string name="phone_email_text">手机号/邮箱</string>
+    <string name="input_phone_email_text">请输入手机号/邮箱</string>
+    <string name="input_vaild_phone_email_text">请输入有效的手机号/邮箱</string>
+    <string name="valid_char_text">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.@</string>
+    <string name="three_login_text">第三方登录</string>
+    <string name="choose_title_text">选择自己的头衔</string>
+    <string name="fleet_management_text">我是车队管理</string>
+    <string name="driver_select_text">我是车队司机</string>
+    <string name="choose_identity_text">选择身份进入Tyre App</string>
+    <string name="personal_text">个人信息</string>
+    <string name="reset_password_text">重置密码</string>
+    <string name="version_text">关于版本</string>
+    <string name="logout_account_text">注销账号</string>
+    <string name="new_password_text">新密码</string>
+    <string name="input_old_password_text">请输入旧密码</string>
+    <string name="input_new_password_text">请输入新密码</string>
+    <string name="input_new_password_again_text">再次输入新密码</string>
+    <string name="account_text">账号</string>
+    <string name="update_password_success_text">修改密码成功</string>
+    <string name="search_car_number_text">搜索车牌号</string>
+    <string name="incorrect_account_number_text">账号不正确</string>
+    <string name="username_or_password_cannot_be_empty_text">用户名或密码不能为空</string>
+
+    <string name="business_user_text">我是企业用户</string>
+    <string name="personal_user_text">我是个人用户</string>
+
+    <string name="baidumap_text">百度地图</string>
+    <string name="my_location_text">我的位置</string>
+</resources>

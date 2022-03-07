@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_head_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/DIMEN_30PX"
+        android:layout_marginStart="@dimen/DIMEN_20PX"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:text="1"
+        android:textColor="@color/item_right_color"
+        />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/DIMEN_30PX"
+        android:layout_toEndOf="@id/tv_head_number"
+        android:text="自定义"
+        android:textColor="@color/item_left_color"
+        android:textSize="@dimen/text_size28"
+        />
+
+    <TextView
+        android:id="@+id/tv_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/DIMEN_20PX"
+        android:layout_toEndOf="@id/tv_name"
+        android:text="(震动+旋转)"
+        android:textColor="@color/item_right_color"
+        android:textSize="@dimen/text_size28"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/DIMEN_20PX"
+        android:src="@mipmap/icon_right_arrow"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/box_border_color"
+        />
+
+</RelativeLayout>

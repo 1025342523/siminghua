@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="main_color">#EC458A</color>
+
+    <color name="play_mode_bg_color">#F8708A</color>
+
+    <color name="real_time_progress_color">#ECECEC</color>
+
+    <color name="pink_color">#FA6D8A</color>
+
+    <color name="title_color">#5D5D5D</color>
+
+    <color name="microphone_seekbar_bg_color">#E0E0E0</color>
+
+    <color name="custom_title_text_color">#4E4E4E</color>
+
+    <color name="yellow_color">#ECD202</color>
+
+    <color name="colorBlue">#0000ee</color>
+
+</resources>

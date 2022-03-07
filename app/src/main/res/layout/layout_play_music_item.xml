@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/DIMEN_20PX"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:text="1"
+        android:textColor="@color/black_three_color"
+        android:textSize="@dimen/text_size36"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toRightOf="@id/tv_flag"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/DIMEN_20PX"
+            android:layout_marginTop="@dimen/DIMEN_15PX"
+            android:text="不染"
+            android:textColor="@color/config_content_text_color"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/DIMEN_20PX"
+            android:layout_marginTop="@dimen/DIMEN_10PX"
+            android:text="毛不易"
+            android:textColor="@color/black_three_color"
+            android:textSize="@dimen/text_size24"
+            />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:background="@color/box_border_color"
+        app:layout_constraintTop_toBottomOf="@id/tv_flag"
+        />
+
+</android.support.constraint.ConstraintLayout>

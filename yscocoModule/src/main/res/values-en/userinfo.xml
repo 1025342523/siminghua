@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="setting_text">Setting</string>
+	<string name="config_text">confirm</string>
+	<string name="cancel_text">cancel</string>
+	<string name="delete_text">delete</string>
+	<string name="submit_text">submit</string>
+	<string name="about_us_text">about us</string>
+	<string name="user_agreement_text">User Agreement</string>
+	<string name="feedback_text">Feedback</string>
+	<string name="input_feedback_content_text">Please enter your feedback, suggest</string>
+	<string name="feedback_success_text">Thank you for your valuable comments, we will deal with it as soon as possible!</string>
+	<string name="input_feedback_contact_text">Please enter your mobile phone number or email address (optional)</string>
+	<string name="clear_cache_text">clear cache</string>
+	<string name="examine_vesion_text">Check version</string>
+	<string name="vesion_update_text">new version update</string>
+	<string name="new_vesion_hint_text">You have a new version, are you updating now?</string>
+	<string name="curret_vesion_new_text">Currently the latest version</string>
+	<string name="now_update_text">update immediately</string>
+	<string name="start_install_text">start installation</string>
+	<string name="after_update_text">talk about it later</string>
+	<string name="help_text">help</string>
+	<string name="logout_text">sign out</string>
+	<string name="contact_us_text">Contact Customer Service</string>
+	<string name="alter_phone_text">Change phone number</string>
+	<string name="new_phone_text">New phone number</string>
+	<string name="input_new_phone_text">Please enter a new phone number</string>
+	<string name="personal_info_text">Personal center</string>
+	<string name="photograph_text">Take a photo</string>
+	<string name="photo_select_text">Choose from a mobile photo album</string>
+	<string name="save_photo_text">save Picture</string>
+	<string name="head_text">Avatar</string>
+	<string name="nickname_text">nickname</string>
+	<string name="alter_nickname_text">change username</string>
+	<string name="input_nickname_text">Please enter a nickname</string>
+	<string name="age_text">age</string>
+	<string name="birthday_text">birthday</string>
+	<string name="input_vaild_age_text">Please select an effective age</string>
+	<string name="sex_text">gender</string>
+	<string name="man_text">male</string>
+	<string name="woman_text">Female</string>
+	<string name="select_sex_text">Please select gender</string>
+	<string name="weight_text">body weight</string>
+	<string name="select_weight_text">Please choose weight</string>
+	<string name="hight_text">height</string>
+	<string name="select_height_text">Please choose height</string>
+	<string name="signature_text">Signature</string>
+	<string name="input_signature_text">Please enter a signature</string>
+	<string name="account_name">username</string>
+	<string name="bind_mailbox">Bind mailbox</string>
+	<string name="phone_number">phone number</string>
+	<string name="alarm_info_text">Alarm information</string>
+	<string name="nearby_stores_text">Nearby stores</string>
+	<string name="logout_success">Logout successful</string>
+	<string name="pick_head_text">Select avatar</string>
+	<string name="pick_text">Select</string>
+	<string name="call_text">call</string>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_255"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/DIMEN_50PX"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <include layout="@layout/layout_title"/>
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:clickable="true"
+            android:padding="@dimen/DIMEN_10PX"
+            android:src="@mipmap/icon_left_arrow"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_set_privacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_20PX"
+        android:text="设置隐私"
+        android:textColor="@color/item_left_color"
+        android:textSize="@dimen/text_size30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rl_title"
+        />
+
+    <com.kyleduo.switchbutton.SwitchButton
+        android:id="@+id/sb_switch"
+        style="@style/SwitchButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/DIMEN_10PX"
+        app:kswAnimationDuration="300"
+        app:kswBackDrawable="@drawable/ios_back_drawable"
+        app:kswThumbDrawable="@drawable/ios_thumb_selector"
+        app:kswThumbMarginBottom="-8dp"
+        app:kswThumbMarginLeft="-5dp"
+        app:kswThumbMarginRight="-5dp"
+        app:kswThumbMarginTop="-2.5dp"
+        app:kswThumbRangeRatio="1.4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rl_title"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginEnd="@dimen/DIMEN_20PX"
+        android:layout_marginStart="@dimen/DIMEN_20PX"
+        android:layout_marginTop="@dimen/DIMEN_20PX"
+        android:background="@color/box_border_color"
+        app:layout_constraintTop_toBottomOf="@id/tv_set_privacy"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

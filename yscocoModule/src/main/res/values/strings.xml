@@ -1,0 +1,10 @@
+<resources>
+    <string name="cancle_attention_text">取消关注</string>
+    <!--年龄-->
+    <string name="choose_birthday">选择出生年月日</string>
+    <string name="choose_year">年</string>
+    <string name="choose_month">月</string>
+    <string name="choose_day">日</string>
+    <string name="input_content_text">请输入内容</string>
+    <string name="update_success_text">修改成功</string>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_700PX"
+        android:scaleType="fitXY"
+        android:src="@mipmap/icon_voice_control_head_bg"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/DIMEN_50PX"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+
+        <include layout="@layout/layout_title"/>
+
+        <ImageView
+            android:id="@+id/iv_left_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:clickable="true"
+            android:padding="@dimen/DIMEN_10PX"
+            android:src="@mipmap/icon_left_arrow_white"
+            />
+
+        <!--<ImageView
+            android:layout_width="@dimen/DIMEN_30PX"
+            android:layout_height="@dimen/DIMEN_30PX"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/DIMEN_20PX"
+            android:src="@mipmap/icon_real_time_manipulation_battery_green"
+            />
+-->
+            
+        <ImageView
+            android:id="@+id/iv_battery"
+            android:layout_width="@dimen/DIMEN_35PX"
+            android:layout_height="@dimen/DIMEN_35PX"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/DIMEN_30PX"
+            />
+
+        <ImageView
+            android:id="@+id/iv_battery_two"
+            android:layout_width="@dimen/DIMEN_35PX"
+            android:layout_height="@dimen/DIMEN_35PX"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/DIMEN_30PX"
+            android:layout_toLeftOf="@id/iv_battery"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="@color/yellow_color"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35"
+        />
+
+    <com.yscoco.siminghua.view.visualizers.WaveformView
+        android:id="@+id/wfv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_570PX"
+        app:layout_constraintTop_toBottomOf="@id/rl_title"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/DIMEN_20PX"
+        android:paddingStart="@dimen/DIMEN_20PX"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="敏感度"
+            android:textColor="@color/item_right_color"
+            />
+
+        <com.jaygoo.widget.RangeSeekBar
+            android:id="@+id/range_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/DIMEN_20PX"
+            app:rsb_max="40"
+            app:rsb_min="0"
+            app:rsb_mode="single"
+            app:rsb_orientation="left"
+            app:rsb_progress_color="@color/real_time_progress_color"
+            app:rsb_progress_default_color="@color/real_time_progress_color"
+            app:rsb_progress_height="@dimen/DIMEN_6PX"
+            app:rsb_thumb_drawable="@mipmap/icon_real_time_manipulation_thumb"
+            app:rsb_thumb_size="@dimen/DIMEN_52PX"
+            />
+
+    </LinearLayout>
+
+    <!-- android:background="@drawable/selector_voice_microphone_bg" -->
+
+    <com.yscoco.siminghua.view.LongClickImageView
+        android:id="@+id/iv_microphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@mipmap/icon_voice_contral_microphone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        />
+
+</android.support.constraint.ConstraintLayout>

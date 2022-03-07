@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/DIMEN_40PX"
+        android:layout_marginStart="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_40PX"
+        android:text="1"
+        android:textColor="@color/item_right_color"
+        android:textSize="@dimen/text_size28"
+        />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/DIMEN_40PX"
+        android:layout_marginTop="@dimen/DIMEN_10PX"
+        android:layout_toEndOf="@id/tv_position"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="华晨宇 - 烟火里的尘埃（2014北京火星演唱会）"
+        />
+
+    <ImageView
+        android:id="@+id/iv_select"
+        android:layout_width="@dimen/DIMEN_40PX"
+        android:layout_height="@dimen/DIMEN_40PX"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/DIMEN_30PX"
+        android:src="@mipmap/icon_song_select"
+        android:visibility="gone"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/tv_position"
+        android:background="@color/box_border_color"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="net_conn_fail">Connection failure!</string>
+	<string name="return_success_text">Successful operation</string>
+	<string name="return_login_past_Text">Your account is logged in elsewhere, please confirm!</string>
+	<string name="return_fail_text">operation failed</string>
+	<string name="return_code_text">Verification code error</string>
+	<string name="return_not_exist_text">User does not exist</string>
+	<string name="return_exist_text">User already exists</string>
+	<string name="return_dimission">User has left</string>
+	<string name="return_re_sign_in">Can\'t repeat the punch!</string>
+	<string name="return_know_error">Unknown error, the return value is:</string>
+	<string name="return_pswd_error_error">Username or password is incorrect</string>
+	<string name="return_wine_del_text">The current wine culture has been removed</string>
+	<string name="return_activity_del_text">Current event has been deleted</string>
+	<string name="return_eaasy_del_text">The current essay has been deleted</string>
+	<string name="return_wine_model_del_text">Current drink has been deleted</string>
+	<string name="return_pswd_error_text">Old password error</string>
+
+</resources>

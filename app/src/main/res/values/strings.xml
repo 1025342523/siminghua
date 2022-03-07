@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">siminghua</string>
+
+    <string name="connecting_device_text">连接设备</string>
+
+    <string name="set_privacy_text">设置隐私</string>
+
+    <string name="add_song_text">添加音乐</string>
+
+    <string name="play_music_text">音乐播放</string>
+
+    <string name="music_list_text">音乐列表</string>
+
+    <string name="custom_text">用户自定义</string>
+
+    <string name="music_control_text">音乐控制</string>
+
+    <string name="no_text">否</string>
+
+    <string name="yes_text">是</string>
+
+    <string name="edit_text">编辑</string>
+
+    <string name="no_toys_text">没有玩具</string>
+
+</resources>

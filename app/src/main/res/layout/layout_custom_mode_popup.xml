@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="bottom"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/DIMEN_1PX"
+    >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_255"
+        android:padding="@dimen/DIMEN_30PX"
+        android:text="播放列表"
+        android:textSize="@dimen/text_size36"
+        />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/tv_title"
+        android:background="@color/box_border_color"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_255"
+        />
+
+</LinearLayout>

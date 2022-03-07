@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yscoco.siminghua.view.SwipeItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/stlRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_itemType="main"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/DIMEN_30PX"
+            android:paddingTop="@dimen/DIMEN_30PX"
+            >
+
+            <ImageView
+                android:id="@+id/iv_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/DIMEN_20PX"
+                android:src="@mipmap/icon_add_song_head"
+                />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/DIMEN_20PX"
+                android:text=""
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/box_border_color"
+            />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_item_delete"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_toEndOf="@id/ll_content"
+        app:layout_itemType="menu"
+        />
+
+</com.yscoco.siminghua.view.SwipeItemLayout>

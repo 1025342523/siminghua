@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yscoco.siminghua.view.SwipeItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                           xmlns:app="http://schemas.android.com/apk/res-auto"
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_itemType="main"
+        >
+
+        <TextView
+            android:id="@+id/tv_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/DIMEN_40PX"
+            android:layout_marginStart="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_40PX"
+            android:text=""
+            android:textColor="@color/item_right_color"
+            android:textSize="@dimen/text_size28"
+            />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/DIMEN_40PX"
+            android:layout_marginTop="@dimen/DIMEN_10PX"
+            android:layout_toEndOf="@id/tv_position"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text=""
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/tv_position"
+            android:background="@color/box_border_color"
+            />
+
+    </RelativeLayout>
+
+    <include
+        layout="@layout/layout_item_delete"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_toEndOf="@id/ll_content"
+        app:layout_itemType="menu"
+        />
+
+
+</com.yscoco.siminghua.view.SwipeItemLayout>

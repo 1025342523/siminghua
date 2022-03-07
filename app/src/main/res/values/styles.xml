@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeTitleTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/transparent</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/black_255</item>
+        <!--<item name="android:windowAnimationStyle">@style/windowAnimation</item>-->
+        <!--<item name="android:windowContentTransitions">true</item>-->
+        <item name="android:windowBackground">@color/white_255</item>
+        <item name="android:itemBackground">@color/white_255</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/DIMEN_100PX"
+        android:layout_marginStart="@dimen/DIMEN_100PX"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:background="@drawable/shape_choose_your_characteristics_item_bg"
+        android:gravity="center"
+        android:paddingBottom="@dimen/DIMEN_10PX"
+        android:paddingTop="@dimen/DIMEN_10PX"
+        android:text="1震动器"
+        android:textColor="@color/black_one_color"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line"
+        <item name="android:layout_marginEnd">@dimen/DIMEN_100PX</item>
+        <item name="android:layout_marginStart">@dimen/DIMEN_100PX</item>
+        />-->
+
+    <style name="ChooseYourCharacteristicsItemStyle">
+        <item name="android:layout_width">@dimen/DIMEN_500PX</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/DIMEN_30PX</item>
+        <item name="android:background">@drawable/shape_choose_your_characteristics_item_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/DIMEN_15PX</item>
+        <item name="android:paddingTop">@dimen/DIMEN_15PX</item>
+        <item name="android:textColor">@color/item_left_color</item>
+    </style>
+
+
+</resources>

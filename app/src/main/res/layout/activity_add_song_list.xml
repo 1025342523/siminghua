@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/DIMEN_20PX"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/DIMEN_50PX"
+        android:background="@color/white_255"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <include layout="@layout/layout_title"/>
+
+        <ImageView
+            android:id="@+id/iv_left_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:clickable="true"
+            android:padding="@dimen/DIMEN_10PX"
+            android:src="@mipmap/icon_left_arrow"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_add_song"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_400PX"
+        android:background="@mipmap/icon_song_add_bg"
+        app:layout_constraintTop_toBottomOf="@id/rl_title_bar"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_add_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/iv_add_song"
+                android:layout_width="@dimen/DIMEN_150PX"
+                android:layout_height="@dimen/DIMEN_150PX"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/icon_song_add"
+                />
+
+            <TextView
+                android:id="@+id/tv_add_song"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_add_song"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/DIMEN_20PX"
+                android:text="创建音乐列表"
+                android:textColor="@color/item_left_color"
+                android:textSize="@dimen/text_size36"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <!--android:layout_height="@dimen/DIMEN_685PX"-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_750PX"
+        app:layout_constraintTop_toBottomOf="@id/rl_add_song"
+        />
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_400PX"
+        android:background="@mipmap/icon_song_add_bg"
+        app:layout_constraintTop_toBottomOf="@id/rl_title_bar"
+        />-->
+
+</android.support.constraint.ConstraintLayout>
